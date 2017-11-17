@@ -1,0 +1,211 @@
+
+html, body {
+  font-family: '나눔고딕', sans-serif;
+/*
+  	background-image: url(image/tumblr_nl100tBSjw1txe8seo1_500.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;*/
+}
+
+.main{
+	position: relative;
+	text-align: center;
+	height: 95vh;
+	border-top: 38px solid #d8d7d4;
+}
+
+.inMenu{
+	position: relative;
+	max-width: 1000px;
+	height: 90vh;
+	margin: auto;
+}
+
+.main_1_innor{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+.logo{
+	margin: auto;
+}
+
+.logo_text{
+	position: relative;
+	font-color: #484848;
+	margin-top: 20px;
+	size: 20px;
+	line-height: 30px;
+}
+
+.main_2_innor{
+	position: absolute;
+	background-image: url(image/Myself.png);
+	background-position: center;
+	max-width: 500px;
+	height: 652px;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.intro{
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(image/pg3.png);
+
+	position: absolute;
+
+	width: 95%;
+	height: 95%;
+
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
+
+.profill_2{
+	background-color: rgba(230,230,230,0.7);
+	height: 100%;
+}
+
+.profill_2 h1{
+	font-family: '나눔고딕Bold', sans-serif;
+	padding-top: 160px;
+	padding-bottom: 53px;
+	font-size: 35pt;
+	color: white;
+}
+
+.profill_2 p{
+	margin-top: 42px;
+	font-size: 16pt;
+	color: white;
+}
+
+.introduce{
+	position: relative;
+	background-color: #d8d7d4;
+	text-align: center;
+
+	background-image: url(image/intro.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+	.introduce_text_zone{
+		position: relative;
+		display: inline-block;
+		max-width: 800px;
+		padding-top: 60px;
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.introduce_text_zone h1{
+		font-family: '나눔고딕Bold', sans-serif;
+		font-size: 3.75rem;
+		color: white;
+	}
+
+	.introduce_text_zone_text{
+		text-align: left;
+		margin-top: 2.5rem;
+		font-size: 1.25rem;
+		line-height: 2rem;
+		color: white;
+	}
+
+	.introduce_button{
+		margin-top: 2rem;
+		padding-bottom: 40px;
+	}
+
+	.introduce_button_innor{
+		text-decoration: none;
+		color: #d8d7d4;
+		font-size: 2.0rem;
+		margin: auto;
+
+		display: inline-block;
+		text-align: center;
+		line-height: 80px;
+		margin-right: 1.25rem;
+		width: 250px;
+		height: 80px;
+		background-color: white;
+
+		margin-bottom: 30px;
+	}
+
+
+
+.Photfolio{
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.Photfolio_title{
+	font-family: '나눔고딕Bold', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	font-size: 3.75rem;
+	color: #bababc;
+}
+
+.Photfolio_in{
+	text-align: center;
+}
+
+.Photfolio_innor{
+	display: inline-block;
+
+	background-color: #bababc;
+	width: 480px;
+	height: 300px;
+	margin: 5px;
+}
+
+.Photfolio_footer{
+	padding-bottom: 100px;
+}
+
+.footer{
+	width: 100%;
+	background-color: #d8d7d4;
+	text-align: center;
+
+	font-size: 1.1rem;
+	color: white;
+}
+
+.footer_logo{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.footer_logo img{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.footer p{
+	padding-top: 20px;
+}
+
+.footer_end{
+	padding-bottom: 80px;
+}
