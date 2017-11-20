@@ -84,8 +84,9 @@ html, body {
 	position: relative;
 	font-color: #484848;
 	margin-top: 20px;
-	size: 20px;
-	line-height: 30px;
+	size: 1.3rem;
+	line-height: 1.8rem;
+	text-align: center;
 }
 
 .main_2_innor{
@@ -97,8 +98,8 @@ html, body {
 .bg{
 	position: absolute;
 
-	width: 500px;
-	height: 652px;
+	width: 31.25rem;
+	height: 40.75rem;
 	margin: auto;
 
 	top: 50%;
@@ -136,17 +137,25 @@ html, body {
 	height: 100%;
 }
 
+.profill_2_innor{
+	position: absolute;
+
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+}
+
 .profill_2 h1{
 	font-family: '나눔고딕Bold', sans-serif;
-	padding-top: 160px;
-	padding-bottom: 53px;
-	font-size: 35pt;
+	padding-bottom: 3.3rem;
+	font-size: 2.2rem;
 	color: white;
 }
 
 .profill_2 p{
-	margin-top: 42px;
-	font-size: 16pt;
+	margin-top: 2.6rem;
+	font-size: 1.2rem;
 	color: white;
 }
 
@@ -206,15 +215,15 @@ html, body {
 		margin-bottom: 30px;
 	}
 
-
-
 .Photfolio{
+	position: relative;
 	text-align: center;
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
 .Photfolio_title{
+	position: relative;
 	font-family: '나눔고딕Bold', sans-serif;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -224,16 +233,32 @@ html, body {
 }
 
 .Photfolio_in{
-	text-align: center;
+	position: relative;
+	max-width: 800px;
+	background-color: black;
+	color: gray;
+	margin: auto;
 }
 
-.Photfolio_innor{
-	display: inline-block;
+.sq{
+	overflow: hidden;
+}
 
-	background-color: #bababc;
-	width: 480px;
-	height: 300px;
-	margin: 5px;
+.sq_item{
+	position: relative;
+	float: left;
+	width: 25%;
+	padding-top: 25%;
+}
+
+.sq_item_anchor{
+	background-color: orange;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 1rem;
 }
 
 .Photfolio_footer{
