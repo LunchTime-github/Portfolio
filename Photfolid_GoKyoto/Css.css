@@ -464,7 +464,7 @@ body{
 
 @media (max-width: 1500px){
 	.intro_text{
-		font-size: 1.8rem;
+		font-size: 1.8em;
 		text-align: center;
 		color: white;
 		line-height: 3.2rem;
@@ -489,8 +489,8 @@ body{
 		margin-top: 3rem;
 		margin-bottom: 3rem;
 
-		font-size: 1.8rem;
-		line-height: 3em;
+		font-size: 1.8em;
+		line-height: 3.2rem;
 	}
 
 	.contents_device_Bace_2{
@@ -511,8 +511,8 @@ body{
 		margin-top: 3rem;
 		margin-bottom: 3rem;
 
-		font-size: 1.6rem;
-		line-height: 3em;
+		font-size: 1.8em;
+		line-height: 3.2rem;
 	}
 
 	.contents_text_3{
@@ -529,8 +529,8 @@ body{
 		margin-top: 3rem;
 		margin-bottom: 3rem;
 
-		font-size: 1.6rem;
-		line-height: 3em;
+		font-size: 1.8em;
+		line-height: 3rem;
 	}
 
 	.UXGuide img{

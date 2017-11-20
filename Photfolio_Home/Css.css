@@ -399,12 +399,12 @@ html, body {
 
 	.introduce_text_zone_text{
 		margin-top: 3.5rem;
-		font-size: 1.8rem;
+		font-size: 1.8em;
 		line-height: 3.8rem;
 	}
 
 	.introduce_button_innor{
-		font-size: 2.3rem;
+		font-size: 2.3em;
 
 		width: 80vw;
 		height: 6rem;
