@@ -368,18 +368,18 @@ html, body {
 		width: 90%;
 		height: 90%;
 	}
-	
+
 	.bg{
-		width: 35.3rem;
-		height: 46rem;
+		width: 45.3rem;
+		height: 58.7rem;
 	}
 
 	.profill_2 h1{
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 
 	.profill_2 p{
-		font-size: 1.4rem;
+		font-size: 2rem;
 	}
 
 	.introduce{
@@ -399,7 +399,7 @@ html, body {
 
 	.introduce_text_zone_text{
 		margin-top: 3.5rem;
-		font-size: 1.3rem;
+		font-size: 1.6rem;
 		line-height: 3.8rem;
 	}
 
