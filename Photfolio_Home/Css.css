@@ -62,7 +62,7 @@ html, body {
 
 .inMenu{
 	position: relative;
-	max-width: 1000px;
+
 	height: 100vh;
 	margin: auto;
 }
@@ -84,7 +84,7 @@ html, body {
 	position: relative;
 	font-color: #484848;
 	margin-top: 20px;
-	size: 1.3rem;
+	font-size: 1rem;
 	line-height: 1.8rem;
 	text-align: center;
 }
@@ -98,14 +98,15 @@ html, body {
 .bg{
 	position: absolute;
 
-	width: 31.25rem;
+	width: 31.3rem;
 	height: 40.75rem;
-	margin: auto;
-
-	top: 50%;
+	
 	left: 50%;
+	top: 50%;
 
 	transform: translate(-50%, -50%);
+
+	margin: auto;
 }
 
 .bg img{
@@ -121,8 +122,8 @@ html, body {
 
 	position: absolute;
 
-	width: 95%;
-	height: 95%;
+	width: 60%;
+	height: 60%;
 
 	left: 50%;
 	top: 50%;
@@ -140,6 +141,7 @@ html, body {
 .profill_2_innor{
 	position: absolute;
 
+	width: 100%;
 	left: 50%;
 	top: 50%;
 
@@ -362,17 +364,22 @@ html, body {
 }
 
 @media (max-width: 1081px){
+	.intro{
+		width: 90%;
+		height: 90%;
+	}
+	
 	.bg{
-		width: 100%;
-		height: 100%;
+		width: 35.3rem;
+		height: 46rem;
 	}
 
 	.profill_2 h1{
-		font-size: 5rem;
+		font-size: 3rem;
 	}
 
 	.profill_2 p{
-		font-size: 2.3rem;
+		font-size: 1.4rem;
 	}
 
 	.introduce{
@@ -392,7 +399,7 @@ html, body {
 
 	.introduce_text_zone_text{
 		margin-top: 3.5rem;
-		font-size: 1.6rem;
+		font-size: 1.3rem;
 		line-height: 3.8rem;
 	}
 
@@ -414,7 +421,7 @@ html, body {
 	.sq_item{
 		position: relative;
 		width: 100%;
-		padding-top: 30%;
+		padding-top: 40%;
 	}
 
 	.sq_item_minusmargin{
