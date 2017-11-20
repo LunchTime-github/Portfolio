@@ -328,8 +328,9 @@ body{
 
 	position: relative;
 	float: right;
+
+	width: 1000px;
 	margin-bottom: 10px;
-	margin-right: 20px;
 }
 
 .contents_device_Bace_2{
@@ -337,6 +338,8 @@ body{
 
 	position: relative;
 	float: left;
+
+	width: 1000px;
 	margin-bottom: 10px;
 }
 
