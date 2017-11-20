@@ -361,7 +361,7 @@ html, body {
 	padding-bottom: 100px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
 	.bg{
 		width: 150%;
 		height: 150%;
@@ -422,7 +422,6 @@ html, body {
 	background-color: #d8d7d4;
 	text-align: center;
 
-	font-size: 1.1rem;
 	color: white;
 }
 
@@ -438,6 +437,7 @@ html, body {
 
 .footer p{
 	padding-top: 20px;
+	font-size: 1.1rem;
 }
 
 .footer_end{
