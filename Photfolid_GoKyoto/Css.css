@@ -464,10 +464,10 @@ body{
 
 @media (max-width: 1500px){
 	.intro_text{
-		font-size: 1.8em;
+		font-size: 1.8rem;
 		text-align: center;
 		color: white;
-		line-height: 3.2em;
+		line-height: 3.2rem;
 	}
 
 	.contents_device_Bace_1{
@@ -486,9 +486,10 @@ body{
 
 		z-index: 11;
 
-		margin-top: 1.8em;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 
-		font-size: 1.8em;
+		font-size: 1.8rem;
 		line-height: 3em;
 	}
 
@@ -507,9 +508,10 @@ body{
 
 		z-index: 11;
 
-		margin-top: 1.8em;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 
-		font-size: 1.8em;
+		font-size: 1.6rem;
 		line-height: 3em;
 	}
 
@@ -524,9 +526,10 @@ body{
 
 		z-index: 11;
 
-		margin-top: 1.8em;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
 
-		font-size: 1.8em;
+		font-size: 1.6rem;
 		line-height: 3em;
 	}
 

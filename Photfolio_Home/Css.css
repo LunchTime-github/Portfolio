@@ -394,17 +394,17 @@ html, body {
 	}
 
 	.introduce_text_zone h1{
-		font-size: 4.75em;
+		font-size: 4.75rem;
 	}
 
 	.introduce_text_zone_text{
 		margin-top: 3.5rem;
-		font-size: 1.8em;
+		font-size: 1.8rem;
 		line-height: 3.8rem;
 	}
 
 	.introduce_button_innor{
-		font-size: 2.3em;
+		font-size: 2.3rem;
 
 		width: 80vw;
 		height: 6rem;
@@ -415,7 +415,7 @@ html, body {
 	}
 
 	.Photfolio_title{
-		font-size: 4.75em;
+		font-size: 4.75rem;
 	}
 
 	.sq_item{
