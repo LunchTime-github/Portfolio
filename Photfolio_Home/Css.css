@@ -368,6 +368,10 @@ html, body {
 }
 
 @media (max-width: 1081px){
+	.main_2_innor{
+		width: 80%;
+	}
+
 	.intro{
 		width: 90%;
 		height: 90%;
