@@ -1,4 +1,4 @@
-body{
+html, body{
 	font-family: '나눔고딕', sans-serif;
 }
 
@@ -367,13 +367,13 @@ body{
 	position: relative;
 	display: inline-block;
 
-	width: 380px;
+	width: 420px;
 
 	z-index: 11;
 	margin-top: 1rem;
 
 	color: #fff;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 31px;
 }
 
@@ -381,12 +381,12 @@ body{
 	position: relative;
 	display: inline-block;
 
-	width: 380px;
+	width: 420px;
 
 	z-index: 11;
 
 	color: #6b5957;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 31px;
 }
 
@@ -394,13 +394,13 @@ body{
 	position: relative;
 	display: inline-block;
 
-	width: 380px;
+	width: 420px;
 
 	z-index: 11;
 	margin-top: 1rem;
 
 	color: #6b5957;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 31px;
 }
 
