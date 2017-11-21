@@ -99,10 +99,12 @@ html, body {
 	background-image: url(image/Myself.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+
 	position: absolute;
 
 	width: 502px;
-	height: 65.2%;
+	height: 652px;
 	
 	left: 50%;
 	top: 50%;
@@ -368,8 +370,8 @@ html, body {
 	}
 
 	.bg{
-		width: 50.2%;
-		height: 70.2%;
+		width: 60.2%;
+		height: 75.2%;
 	}
 
 	.profill_2 h1{
