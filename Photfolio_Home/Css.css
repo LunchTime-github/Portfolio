@@ -96,10 +96,13 @@ html, body {
 }
 
 .bg{
+	background-image: url(image/Myself.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	position: absolute;
 
-	width: 31.3rem;
-	height: 40.75rem;
+	width: 502px;
+	height: 65.2%;
 	
 	left: 50%;
 	top: 50%;
@@ -107,11 +110,6 @@ html, body {
 	transform: translate(-50%, -50%);
 
 	margin: auto;
-}
-
-.bg img{
-	position: absolute;
-	z-index: -1;
 }
 
 .intro{
@@ -370,8 +368,8 @@ html, body {
 	}
 
 	.bg{
-		width: 47rem;
-		height: 61.12rem;
+		width: 50.2%;
+		height: 70.2%;
 	}
 
 	.profill_2 h1{
