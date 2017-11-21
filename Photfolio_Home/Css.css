@@ -92,6 +92,7 @@ html, body {
 .main_2_innor{
 	position: relative;
 	margin: auto;
+	width: 502px;
 	height: 100vh;
 }
 
@@ -103,8 +104,8 @@ html, body {
 
 	position: absolute;
 
-	width: 502px;
-	height: 652px;
+	width: 100%;
+	padding-top: 129%;
 	
 	left: 50%;
 	top: 50%;
@@ -132,10 +133,13 @@ html, body {
 }
 
 .profill_2{
-	position: relative;
+	position: absolute;
 	text-align: center;
 	background-color: rgba(230,230,230,0.7);
-	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .profill_2_innor{
@@ -370,8 +374,8 @@ html, body {
 	}
 
 	.bg{
-		width: 60.2%;
-		height: 75.2%;
+		width: 100%;
+		padding-top: 129%;
 	}
 
 	.profill_2 h1{
