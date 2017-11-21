@@ -324,7 +324,26 @@ html, body {
 	z-index: 0;
 }
 
-.goKyoto_innor{
+.iPet{
+	background-image: url(image/iPet.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 10;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.goKyoto:hover{
+	z-index: 0;
+}
+
+
+.sq_innor{
 	opacity: 0;
 	z-index: 30;
 	background-color: rgba(255,255,255,0.9);
@@ -337,7 +356,7 @@ html, body {
 	transition: all 0.3s;	
 }
 
-.goKyoto_innor_title{
+.sq_innor_title{
 	position: absolute;
 
 	top: 50%;
@@ -346,26 +365,28 @@ html, body {
 	transform: translate(-50%, -50%);
 }
 
-.goKyoto_innor h1{
+.sq_innor_title h1{
 	color: #bababc;
 	padding-left: 1rem;
 	font-size: 4rem;
 }
 
-.goKyoto_innor p{
+.sq_innor_title p{
 	color: #bababc;
 	padding-top: 1rem;
 	padding-left: 1.2rem;
 	font-size: 1.5rem;
 }
 
-.goKyoto_innor:hover{
+.sq_innor:hover{
 	opacity: 1;
 }
 
 .Photfolio_footer{
 	padding-bottom: 100px;
 }
+
+
 
 @media (max-width: 1081px){
 	.main_2_innor{
