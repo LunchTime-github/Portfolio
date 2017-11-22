@@ -145,6 +145,13 @@ body{
 			top: 50px;
 		}
 
+		.guide{
+			position: relative;
+			text-align: center;
+			margin-top: -160px;
+			padding-bottom: 250px;
+		}
+
 /*footer*/
 .footer{
 	background-image: url(image/mockup_1.png);
@@ -184,6 +191,7 @@ body{
 .footer p{
 	padding-top: 20px;
 	z-index: 10;
+	margin: 0px;
 }
 
 .footer_end{
