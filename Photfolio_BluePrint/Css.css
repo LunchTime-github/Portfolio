@@ -1,0 +1,174 @@
+body{
+	font-family: 'aritadt', sans-serif;
+	background-image: url(image/bg_patton.png);
+}
+
+.top{
+	position: relative;
+	width: 100%;
+	z-index: -10;
+
+	animation: layer1Anim 1s;
+}
+
+@keyframes layer1Anim {
+    0%{opacity:0; margin-top: -300px;}
+    100%{opacity:1; margin-top: 0px;}
+}
+
+.top_bg_img{
+	position: relative;
+	background-image: url(image/bg.png);
+	background-size: cover;
+	background-position: center center;
+	height: 90vh;
+}
+
+.top_bg_white{
+	position: relative;
+	background-color: rgba(255,255,255,0.6);
+	height: 100%;
+}
+
+.top_bg{
+	position: relative;
+	max-width: 1300px;
+	margin: 0 auto;
+	margin-top: -450px;
+
+	text-align: right;
+
+	color: #2c2c2c;
+
+	animation: layer2Anim 1s;
+}
+
+@keyframes layer2Anim {
+    0%{opacity:0; margin-top: 300px;}
+    100%{opacity:1; margin-top: -450px;}
+}
+
+.top_bg h1{
+	font-family: 'aritadm', sans-serif;
+	font-size: 100px;
+	margin-bottom: 35px;
+}
+
+.top_bg_font{
+	font-size: 40px;
+	margin-bottom: 35px;
+}
+
+.contents{
+	position: relative;
+	max-width: 1300px;
+
+	margin: 0 auto;
+	background-color: rgba(255,255,255, 0.8);
+
+	text-align: center;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contents_btn{
+	position: relative;
+	padding-top: 50px;
+
+	margin-bottom: 200px;
+}
+
+.contents_btn_p{
+	position: relative;
+
+	display: inline-block;
+	width: 500px;
+	margin: 0 auto;
+
+	padding: 30px;
+	font-size: 40px;
+	color: #868785;
+	line-height: 40px;
+
+
+	background-color: rgba(255,255,255, 0.8);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.contents h2{
+	font-family: 'aritadb', sans-serif;
+	font-size: 60px;
+	margin-bottom: 100px;
+	
+	color: #5f5f5f;
+}
+
+.icons{
+	position: relative;
+	width: 476px;
+	margin-bottom: 300px;
+}
+
+.arita{
+	position: relative;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.Thin{
+	font-family: 'aritadt', sans-serif;
+}
+
+.Light{
+	font-family: 'aritadl', sans-serif;
+}
+
+.Medium{
+	font-family: 'aritadm', sans-serif;
+}
+
+.SemiBold{
+	font-family: 'aritadsb', sans-serif;
+}
+
+.Bold{
+	font-family: 'aritadsb', sans-serif;
+	margin-bottom: 300px;
+}
+
+.mockup{
+	position: relative;
+	margin-bottom: 300px;
+}
+
+.footer{
+	margin-top: 50px;
+	width: 100%;
+	background-color: #d8d7d4;
+	text-align: center;
+
+	color: white;
+}
+
+.footer_logo{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.footer_logo img{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.footer p{
+	padding-top: 20px;
+	font-size: 1.1rem;
+}
+
+.footer_end{
+	padding-bottom: 80px;
+}
+
+.footer_font{
+	margin-top: 30px;
+}
