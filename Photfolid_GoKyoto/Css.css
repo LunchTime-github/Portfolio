@@ -2,6 +2,19 @@ html, body{
 	font-family: '나눔고딕', sans-serif;
 }
 
+.backgroung_wf{
+	background-color: gray;
+}
+
+.wrap{
+	position: relative;
+	margin: 0 auto;
+
+	max-width: 1500px;
+
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+
 /*background option*/
 .background{
 	width: 100%;
@@ -112,13 +125,6 @@ html, body{
 	top: 50%;
 
 	transform: translate(-50%, -50%);
-
-	animation: moveanim 1s;
-}
-
-@keyframes moveanim{
-	from{top:45%; opacity: 0;}
-	to{top:50%; opacity: 1;}
 }
 
 .logo_main_text{
