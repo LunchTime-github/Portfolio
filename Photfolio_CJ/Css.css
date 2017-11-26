@@ -167,7 +167,7 @@ html{
 
 .sub_height{
 	height: auto;
-	padding-bottom: 140%;
+	padding-bottom: 2000px;
 }
 
 .contents_title{
@@ -282,8 +282,8 @@ html{
 	margin-left: 80px;
 	float: left;
 
-	font-size: 1.1rem;
-	line-height: 1.6rem;
+	font-size: 1rem;
+	line-height: 1.8rem;
 	font-weight: 100; 
 }
 
@@ -291,8 +291,8 @@ html{
 	float: left;
 	margin-top: 10px;
 
-	font-size: 1.1rem;
-	line-height: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.8rem;
 	font-weight: 100; 
 }
 
@@ -358,8 +358,8 @@ html{
 	margin-top: -33px;
 
 	margin-left: 50px;
-	font-size: 1.1rem;
-	line-height: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.8rem;
 	font-weight: 100; 
 }
 
@@ -388,9 +388,10 @@ html{
 
 	.main_pg{
 		width: 100%;
+		margin-top: 10%;
 
 		right: 0;
-		bottom: 0;
+		top: 0;
 	}
 
 	.main_title{
@@ -456,7 +457,7 @@ html{
 
 @media (max-width: 900px){
 	.main_pg_wrap{
-		padding-bottom: 80%;
+		padding-bottom: 800px;
 	}
 
 	.main_pg{
@@ -506,8 +507,8 @@ html{
 
 .footer p{
 	padding-top: 20px;
-	font-size: 1.1rem;
-	line-height: 1.5rem;
+	font-size: 1rem;
+	line-height: 1.8rem;
 }
 
 .footer_end{
