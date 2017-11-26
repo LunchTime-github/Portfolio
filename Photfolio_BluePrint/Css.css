@@ -172,3 +172,9 @@ body{
 .footer_font{
 	margin-top: 30px;
 }
+
+@media (max-width: 1200px){
+	.footer p{
+		font-size: 0.6em;
+	}
+}
