@@ -151,8 +151,9 @@ html{
 
 .main_title_contents{
 	margin-top: 50px;
-	font-size: 1rem;
-	line-height: 2.1rem;
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 100;
 }
 
 .main_title_processbook{
@@ -163,15 +164,15 @@ html{
 
 .main_title_processbook_title{
 	text-decoration: none;
-	font-size: 1.4rem;
+	font-size: 30px;
 	color: #787979;
 
-	margin-top: 1.5rem;
+	margin-top: 30px;
 
 	display: inline-block;
 
 	text-align: center;
-	padding: 1.3rem 3.8rem;
+	padding: 20px 40px;
 	background-color: white;
 }
 
@@ -304,18 +305,19 @@ html{
 	margin-left: 80px;
 	float: left;
 
-	font-size: 1rem;
-	line-height: 1.8rem;
+	font-size: 20px;
+	line-height: 32px;
 	font-weight: 100; 
 }
 
 .contents_home_contents_text_only{
 	float: left;
-	margin-top: 10px;
+	margin-top: 5px;
 
-	font-size: 1rem;
-	line-height: 1.8rem;
-	font-weight: 100; 
+	font-size: 20px;
+	line-height: 32px;
+	font-weight: 100;
+
 }
 
 .contents_sub{
@@ -377,11 +379,11 @@ html{
 }
 
 .contents_sub_contents_text_only{
-	margin-top: -33px;
+	margin-top: -35px;
 
 	margin-left: 50px;
-	font-size: 1rem;
-	line-height: 1.8rem;
+	font-size: 20px;
+	line-height: 32px;
 	font-weight: 100; 
 }
 
@@ -404,6 +406,9 @@ html{
 }
 
 @media (max-width: 1350px){
+	.border{
+		display: none;
+	}
 	.main_pg_wrap{
 		height: 100%;
 	}
@@ -529,8 +534,8 @@ html{
 
 .footer p{
 	padding-top: 20px;
-	font-size: 1rem;
-	line-height: 1.8rem;
+	font-size: 16px;
+	line-height: 32px;
 }
 
 .footer_end{
