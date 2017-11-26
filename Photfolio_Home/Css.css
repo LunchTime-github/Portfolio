@@ -282,7 +282,7 @@ html, body {
 }
 
 .sq_item_wide{
-	width: 40%;
+	width: 50%;
 	padding-top: 30%;
 }
 
@@ -306,6 +306,10 @@ html, body {
 
 .sq_item_minusmargin{
 	margin-top: -10%;
+}
+
+.sq_wide_margin{
+	margin-top: 10%;
 }
 
 .goKyoto{
@@ -363,6 +367,43 @@ html, body {
 	z-index: 0;
 }
 
+.CJONE{
+	background-image: url(image/CJone.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 10;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.CJONE:hover{
+	z-index: 0;
+}
+
+.Blank{
+	background-image: url(image/blank.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 10;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.Blank:hover{
+	z-index: 0;
+}
+
+
 .sq_innor{
 	opacity: 0;
 	z-index: 30;
@@ -409,7 +450,7 @@ html, body {
 
 
 
-@media (max-width: 1081px){
+@media (max-width: 1181px){
 	.main_2_innor{
 		width: 70%;
 	}
@@ -489,6 +530,7 @@ html, body {
 	text-align: center;
 
 	color: white;
+	font-size: 1.1rem;
 }
 
 .footer_logo{
@@ -503,7 +545,10 @@ html, body {
 
 .footer p{
 	padding-top: 20px;
-	font-size: 1.1rem;
+}
+
+.footer_p_point{
+	font-size: 0.8rem;
 }
 
 .footer_end{
