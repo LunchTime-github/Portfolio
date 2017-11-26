@@ -457,7 +457,8 @@ html{
 	}
 
 	.main_pg_wrap{
-		height: 100%;
+		height: 100vh;
+		margin-bottom: 100px;
 	}
 
 	.main_pg{
