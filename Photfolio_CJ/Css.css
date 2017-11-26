@@ -441,27 +441,59 @@ html{
 
 @media (max-width: 1350px){
 	.border{
-		display: none;
+		width: 100%;
+		height: 100px;
+		z-index: 100;
 	}
+
+	.wide{
+		height: 80px;
+	}
+
+	.thin{
+		top: 110px;
+		left: 0;
+		height: 30px;
+	}
+
 	.main_pg_wrap{
 		height: 100%;
 	}
 
 	.main_pg{
 		width: 100%;
-		margin-top: 10%;
+		margin-top: 16%;
 
 		right: 0;
-		top: 25%;
+		top: 10%;
 	}
 
 	.main_title{
-		margin-left: 50px;
-		margin-right: 0;
+		position: relative;
+		float: none;
+		margin: 0 auto;
+
+		max-width: 780px;
+		margin-top: 100px;
 	}
 
 	.main_pg_phone{
-		margin-right: 50px;
+		position: relative;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.main_title_processbook_title{
+		font-size: 3em;
+		color: #787979;
+
+		margin-top: 1.3em;
+
+		display: inline-block;
+
+		text-align: center;
+		padding: 1em 2em;
+		background-color: white;
 	}
 
 	.contents{
