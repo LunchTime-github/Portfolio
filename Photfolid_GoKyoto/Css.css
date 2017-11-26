@@ -379,7 +379,7 @@ html, body{
 	margin-top: 1rem;
 
 	color: #fff;
-	font-size: 1.2rem;
+	font-size: 18px;
 	line-height: 31px;
 }
 
@@ -392,7 +392,7 @@ html, body{
 	z-index: 11;
 
 	color: #6b5957;
-	font-size: 1.2rem;
+	font-size: 18px;
 	line-height: 31px;
 }
 
@@ -406,7 +406,7 @@ html, body{
 	margin-top: 1rem;
 
 	color: #6b5957;
-	font-size: 1.2rem;
+	font-size: 18px;
 	line-height: 31px;
 }
 
@@ -547,7 +547,7 @@ html, body{
 	height: 500px;
 	text-align: center;
 
-	font-size: 1.1rem;
+	font-size: 16px;
 	color: white;
 
 	margin-top: 50px;
