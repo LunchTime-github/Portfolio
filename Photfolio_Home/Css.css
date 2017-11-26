@@ -196,7 +196,7 @@ html, body {
 		font-family: '나눔고딕', sans-serif;
 		text-align: left;
 		margin-top: 2.5rem;
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 2.5rem;
 		color: white;
 	}
@@ -472,6 +472,7 @@ html, body {
 
 .footer_p_point{
 	font-size: 0.8em;
+	line-height: 1.6em;
 }
 
 .footer_end{
