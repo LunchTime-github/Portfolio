@@ -151,9 +151,12 @@ html{
 
 .main_title_contents{
 	margin-top: 50px;
-	font-size: 1.3rem;
+}
+
+.font_contents{
+	font-size: 1.2rem;
 	line-height: 1.6em;
-	font-weight: 100;
+	font-weight: 100; 
 }
 
 .main_title_processbook{
@@ -308,20 +311,11 @@ html{
 	margin-top: 30px;
 	margin-left: 80px;
 	float: left;
-
-	font-size: 20px;
-	line-height: 1.6em;
-	font-weight: 100; 
 }
 
 .contents_home_contents_text_only{
 	float: left;
 	margin-top: 5px;
-
-	font-size: 20px;
-	line-height: 1.6em;
-	font-weight: 100;
-
 }
 
 .contents_sub{
@@ -376,6 +370,12 @@ html{
 	margin-left: 25%;
 }
 
+.contents_sub_contents_contents_margin{
+	position: relative;
+	float: left;
+	padding-top: 30px;
+}
+
 .num_position_sub_contents{
 	position: relative;
 
@@ -383,17 +383,17 @@ html{
 }
 
 .contents_sub_contents_text_only{
-	margin-top: -35px;
-
+	margin-top: -40px;
 	margin-left: 50px;
-	font-size: 20px;
-	line-height: 32px;
-	font-weight: 100;
+}
+
+.sub_event_contents{
+	margin-top: -35px;
 }
 
 .sub_contents_blank{
 	position: relative;
-	height: 30px;
+	height: 150px;
 }
 
 .sub_event{
@@ -439,13 +439,13 @@ html{
 	padding-bottom: 80px;
 }
 
-@media handheld, only screen and (max-width: 1650px){
+@media (max-width: 1650px){
 	.border{
 		display: none;
 	}
 }
 
-@media handheld, only screen and (max-width: 1350px){
+@media (max-width: 1350px){
 	.border{
 		display: block;
 		width: 100%;
@@ -464,7 +464,7 @@ html{
 	}
 
 	.main_pg_wrap{
-		height: 100vh;
+		padding-bottom: 800px;
 		margin-bottom: 100px;
 	}
 
@@ -546,28 +546,18 @@ html{
 		float: none;
 		margin: 0 auto;
 		margin-top: 130px;
+		padding-bottom: 330px;
 
 		max-width: 900px;
 	}
 
-	.contents_sub_contents_text_only{
-		font-size: 0.5em;
-	}
-
 	.sub_event{
-		margin-top: 100px;
+		padding-top: 100px;
 		max-width: 600px;
-	}
-
-	.footer p{
-		font-size: 0.5em;
 	}
 }
 
-@media handheld, only screen and (max-width: 900px){
-	.main_pg_wrap{
-		padding-bottom: 800px;
-	}
+@media (max-width: 900px){
 
 	.main_pg{
 		position: relative;
