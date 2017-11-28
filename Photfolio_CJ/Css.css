@@ -53,6 +53,7 @@ html{
 	position: relative;
 	width: 100%;
 	height: 100%;
+	overflow: auto;
 }
 
 .main_pg{
@@ -364,6 +365,7 @@ html{
 .contents_sub_contents{
 	position: relative;
 	float: right;
+	overflow: auto;
 
 	margin-top: 160px;
 	margin-right: 10%;
@@ -410,6 +412,7 @@ html{
 }
 
 .footer{
+	position: relative;
 	margin-top: 100px;
 	width: 100%;
 	background-color: #d8d7d4;
@@ -464,7 +467,6 @@ html{
 	}
 
 	.main_pg_wrap{
-		padding-bottom: 800px;
 		margin-bottom: 100px;
 	}
 
@@ -546,7 +548,6 @@ html{
 		float: none;
 		margin: 0 auto;
 		margin-top: 130px;
-		padding-bottom: 330px;
 
 		max-width: 900px;
 	}
@@ -558,7 +559,6 @@ html{
 }
 
 @media (max-width: 900px){
-
 	.main_pg{
 		position: relative;
 		margin-top: 100px;
