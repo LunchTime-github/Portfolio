@@ -212,18 +212,60 @@ html, body {
 	.introduce_button_innor{
 		text-decoration: none;
 		color: #d8d7d4;
-		font-size: 2.0rem;
 		margin: auto;
 
 		display: inline-block;
-		text-align: center;
-		line-height: 5rem;
+		
 		margin-right: 1.25rem;
-		width: 15.6rem;
-		height: 5rem;
+	}
+
+	.introduce_button_innor_a{
+		font-size: 2rem;
+		text-align: center;
+
+		padding: 1.5rem 3rem;
 		background-color: white;
 
-		margin-top: 1.5rem;
+		z-index: 999999;
+	}
+
+	.introduce_img{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		z-index: 999;
+	}
+
+	.introduce_img_bg{
+		background-color: rgba(0,0,0,.6);
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		top: 0;
+		display:none;
+	}
+
+	.introduce_img_in{
+		position: fixed;
+		
+		width: 600px;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		display:none;
+	}
+
+	.introduce_img_in_img{
+		position: absolute;
+
+		border: 20px solid #d8d7d4;
+		border-radius: 6px;
+
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 
 .Photfolio{
@@ -540,6 +582,10 @@ html, body {
 		background-color: white;
 
 		margin-top: 2rem;
+	}
+
+	.introduce_img_in{
+		width: 90%;
 	}
 
 	.Photfolio_title{

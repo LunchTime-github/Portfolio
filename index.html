@@ -5,6 +5,28 @@
 		<title>LunChi Photfolio</title>
 		<link rel="stylesheet" href="ResetCss.css"/>
 		<link rel="stylesheet" href="Photfolio_Home/Css.css"/>
+		<script type="text/javascript" src="Modals/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+ 				$(".call_modal_resume").click(function(){
+					$(".modal").fadeIn();
+					$(".modal_resume").show();
+	 		 	});
+			});
+			$(document).ready(function(){
+ 				$(".call_modal_introduce").click(function(){
+					$(".modal").fadeIn();
+					$(".modal_introduce").show();
+	 		 	});
+			});
+			$(document).ready(function(){
+  				$(".close").click(function(){
+					$(".modal").fadeOut();
+					$(".modal_resume").fadeOut();
+					$(".modal_introduce").fadeOut();
+				  });
+			});
+		</script>
 	</head>
 	<body>
 		<div class ="main">
@@ -46,9 +68,19 @@
 					- 디자인을 좋아하고 즐기며 직접 디자인 한 것을 실제 구동하는 것을 좋아합니다.<br> - 개발자와 디자이너 간의 갈등을 해결하고 협업하기 위해 양쪽 모두를 이해하기 위해 노력하고 있습니다. <br>- 최신 디자인 트랜드를 파악하고 더 나은 디자인이 무엇인지 탐구하며 개발자의 언어와 기능, 기술의 한계를 이해하고 그 중심에서 최상의 디자인을 구축하고 있습니다.<br> - 빠르게 변화하는 환경 속에서 삶의 질을 최상으로 이끌어 내기 위해 새로운 것을 계속 찾아 나서는 저는 테크니컬 디자이너(Technical Designer)입니다.
 				</p>
  				<div class="introduce_button">
-					<a class = "introduce_button_innor" href="Photfolio_Home/image/이력서.jpg" target="_blank">RESUME</a>
-					<a class = "introduce_button_innor" href="Photfolio_Home/image/자기소개서.jpg" target="_blank"><p class = "introduce_button_innor_text">INTRODUCE</p></a>
+					<p class = "introduce_button_innor call_modal_resume"><a class="introduce_button_innor_a" href="#noLink">RESUME</a></p>
+					<p class = "introduce_button_innor call_modal_introduce"><a class="introduce_button_innor_a" href="#noLink">INTRODUCE</a></p>
  				</div>
+			</div>
+		</div>
+		<div class="introduce_img">
+			<div class="introduce_img_bg modal">
+				<div class="introduce_img_in modal_resume">
+					<img class="introduce_img_in_img close" src="Photfolio_Home/image/resume.png" width="100%">
+				</div>
+				<div class="introduce_img_in modal_introduce">
+					<img class="introduce_img_in_img close" src="Photfolio_Home/image/introduce.jpg" width="100%">
+				</div>
 			</div>
 		</div>
 		<div class="Photfolio">
