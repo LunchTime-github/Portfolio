@@ -223,7 +223,7 @@ html, body {
 		height: 5rem;
 		background-color: white;
 
-		margin-bottom: 1.5rem;
+		margin-top: 1.5rem;
 	}
 
 .Photfolio{
@@ -517,9 +517,9 @@ html, body {
 
 	.introduce_text_zone{
 		max-width: 1000px;
-		padding-top: 3rem;
-		padding-right: 2rem;
-		padding-left: 2rem;
+		padding-top: 4rem;
+		padding-right: 3rem;
+		padding-left: 3rem;
 	}
 
 	.introduce_text_zone h1{
@@ -534,7 +534,7 @@ html, body {
 		line-height: 6rem;
 		background-color: white;
 
-		margin-bottom: 2rem;
+		margin-top: 2rem;
 	}
 
 	.Photfolio_title{
