@@ -1,657 +1,109 @@
-
-html, body {
-	font-family: '나눔고딕', sans-serif;
-	-webkit-text-size-adjust: none;
-/*
-  	background-image: url(image/tumblr_nl100tBSjw1txe8seo1_500.gif);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;*/
+html, body{font-family:'나눔고딕', sans-serif;-webkit-text-size-adjust:none;}
+.loader{position:absolute;left:50%;top:50%;z-index:100;width:150px;height:150px;margin:-75px 0 0 -75px;border:16px solid #f3f3f3;border-radius:50%;border-top:16px solid #d8d7d4;width:120px;height:120px;-webkit-animation:spin 2s linear infinite;animation:spin 2s linear infinite;}
+@-webkit-keyframes spin{0%{-webkit-transform:rotate(0deg);}
+100%{-webkit-transform:rotate(360deg);}
 }
-
-.loader { 
-	position: absolute; 
-	left: 50%;
-	top: 50%;
-	z-index: 100;
-	width: 150px;
-	height: 150px;
-	margin: -75px 0 0 -75px;
-	border: 16px solid #f3f3f3;
-	border-radius: 50%;
-	border-top: 16px solid #d8d7d4;
-	width: 120px;
-	height: 120px;
-
-	-webkit-animation: spin 2s linear infinite;
-	animation: spin 2s linear infinite;
+@keyframes spin{0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
 }
-
-@-webkit-keyframes spin {
-	0% { -webkit-transform: rotate(0deg); }
-	100% { -webkit-transform: rotate(360deg); } 
+.loader_bg{position:absolute;top:0;left:0;right:0;bottom:0;z-index:80;background-color:white;}
+.main{position:relative;width:100%;height:100vh;}
+.Menu_po{position:absolute;top:0;bottom:0;right:0;left:0;}
+.anim1{animation:layer1Anim 10s infinite;}
+.anim2{animation:layer2Anim 10s infinite;}
+.anim3{animation:layer3Anim 10s infinite;}
+@keyframes layer1Anim{25%{opacity:1;}
+35%{opacity:0;}
+80%{opacity:0;}
+90%{opacity:1;}
 }
-
-@keyframes spin { 
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); } 
+@keyframes layer2Anim{0%{opacity:0;}
+25%{opacity:0;}
+35%{opacity:1;}
+55%{opacity:1;}
+65%{opacity:0;}
+100%{opacity:0;}
 }
-
-.loader_bg{
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-
-	z-index: 80; 
- 
-	background-color: white;
+@keyframes layer3Anim{0%{opacity:0;}
+55%{opacity:0;}
+65%{opacity:1;}
+90%{opacity:1;}
+100%{opacity:0;}
 }
-
-.main{
-	position: relative;
-	width: 100%;
-	height: 100vh;
+.inMenu{position:relative;height:100vh;margin:auto;}
+.main_1_innor{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);}
+.main_1_innor img{display:block;margin:auto;}
+.logo_text{position:relative;font-color:#484848;margin-top:20px;font-size:1rem;line-height:1.8rem;text-align:center;}
+.main_2_innor{position:relative;margin:auto;width:502px;height:100vh;}
+.bg{background-image:url(image/Myself.png);background-repeat:no-repeat;background-size:cover;background-position:center;position:absolute;width:100%;padding-top:129%;left:50%;top:50%;transform:translate(-50%, -50%);margin:auto;}
+.intro{background-position:center;background-size:contain;background-repeat:no-repeat;background-image:url(image/pg3.png);position:absolute;width:60%;height:60%;left:50%;top:50%;transform:translate(-50%, -50%);}
+.profill_2{position:absolute;text-align:center;background-color:rgba(230,230,230,0.7);top:0;left:0;right:0;bottom:0;}
+.profill_2_innor{position:absolute;width:100%;left:50%;top:50%;transform:translate(-50%, -50%);}
+.profill_2 h1{font-family:'나눔고딕', sans-serif;padding-bottom:3.3rem;font-size:2.2rem;color:white;}
+.profill_2 p{margin-top:2.6rem;font-size:1.2rem;color:white;}
+.introduce{position:relative;background-color:#d8d7d4;text-align:center;background-image:url(image/intro.png);background-size:contain;background-repeat:no-repeat;background-position:right;}
+.introduce_text_zone{position:relative;max-width:800px;margin:auto;padding-top:5rem;padding-right:2rem;padding-left:2rem;}
+.introduce_text_zone h1{text-align:center;font-family:'나눔고딕', sans-serif;font-size:3.75rem;color:white;margin-bottom:3rem;}
+.introduce_text_zone_text{position:relative;text-align:left;font-family:'나눔고딕', sans-serif;margin-top:2.5rem;font-size:1.2rem;line-height:2.6em;color:white;}
+.introduce_button{margin-top:3rem;padding-bottom:5rem;}
+.introduce_button_innor{text-decoration:none;color:#d8d7d4;margin:auto;display:inline-block;margin-right:1.25rem;}
+.introduce_button_innor_a{font-size:2rem;text-align:center;padding:1.5rem 3rem;background-color:white;z-index:999999;}
+.introduce_img{width:100%;height:100%;position:absolute;top:0;z-index:999;}
+.introduce_img_bg{background-color:rgba(0,0,0,.6);height:100%;width:100%;position:fixed;top:0;display:none;}
+.introduce_img_in{position:fixed;width:600px;top:50%;left:50%;transform:translate(-50%, -50%);display:none;}
+.introduce_img_in_img{position:absolute;border:20px solid #d8d7d4;border-radius:6px;top:50%;left:50%;transform:translate(-50%, -50%);}
+.Photfolio{position:relative;text-align:center;padding-left:1.3rem;padding-right:1.3rem;}
+.Photfolio_title{position:relative;font-family:'나눔고딕Bold', sans-serif;margin-top:2.5rem;margin-bottom:2.5rem;font-size:3.75rem;color:#bababc;}
+.Photfolio_in{position:relative;max-width:1200px;margin:auto;}
+.clearfix::after{content:'';display:block;clear:both;}
+.sq{overflow:hidden;}
+.sq_item{position:relative;float:left;width:25%;padding-top:25%;}
+.sq_blank{position:relative;float:left;width:10%;padding-top:10%;}
+.sq_item_anchor{position:absolute;overflow:hidden;top:0;left:0;right:0;bottom:0;margin:0.1rem;}
+.sq_item_wide{width:50%;padding-top:30%;}
+.sq_item_blank{width:30%;padding-top:30%;}
+.sq_item_long{width:30%;padding-top:40%;}
+.sq_item_float_right{float:right;}
+.sq_item_float_left{float:left;}
+.sq_item_minusmargin{margin-top:-10%;}
+.sq_wide_margin{margin-top:10%;}
+.goKyoto{background-image:url(image/GoKyoto.png);background-size:cover;background-repeat:no-repeat;background-position:center;z-index:10;position:absolute;left:0;top:0;right:0;left:0;}
+.goKyoto:hover{z-index:0;}
+.iPet{background-image:url(image/iPet.png);background-size:cover;background-repeat:no-repeat;background-position:center;z-index:10;position:absolute;left:0;top:0;right:0;left:0;}
+.iPet:hover{z-index:0;}
+.BluePrint{background-image:url(image/BluePrint.png);background-size:cover;background-repeat:no-repeat;background-position:center;z-index:10;position:absolute;left:0;top:0;right:0;left:0;}
+.BluePrint:hover{z-index:0;}
+.CJONE{background-image:url(image/CJone.png);background-size:cover;background-repeat:no-repeat;background-position:center;z-index:10;position:absolute;left:0;top:0;right:0;left:0;}
+.CJONE:hover{z-index:0;}
+.Blank{background-image:url(image/blank.png);background-size:cover;background-repeat:no-repeat;background-position:center;z-index:10;position:absolute;left:0;top:0;right:0;left:0;}
+.Blank:hover{z-index:0;}
+.sq_innor{opacity:0;z-index:30;background-color:rgba(255,255,255,0.9);position:relative;width:100%;height:100%;transition:all 0.3s;}
+.sq_innor_title{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);}
+.sq_innor_title h1{color:#bababc;padding-left:1rem;font-size:4rem;}
+.sq_innor_title p{color:#bababc;padding-top:1rem;padding-left:1.2rem;font-size:1.5rem;line-height:1.5em;}
+.sq_innor:hover{opacity:1;}
+.Photfolio_footer{padding-bottom:100px;}
+.footer{width:100%;background-color:#d8d7d4;text-align:center;color:white;}
+.footer_logo{position:relative;margin:0 auto;}
+.footer_logo img{padding-top:30px;padding-bottom:10px;width:76px;}
+.footer_contents{padding-top:20px;font-size:1rem;line-height:2.6em;margin-left:50px;margin-right:50px;}
+.footer_p_point{font-size:0.8em;margin-top:2em;line-height:3em;}
+.footer_end{padding-bottom:80px;}
+@media (max-width:1181px){.main_2_innor{width:70%;}
+.intro{width:90%;height:90%;}
+.bg{width:100%;padding-top:129%;}
+.profill_2 h1{font-size:4rem;}
+.profill_2 p{font-size:2rem;}
+.introduce{background-image:none;}
+.introduce_text_zone{max-width:1000px;padding-top:4rem;padding-right:3rem;padding-left:3rem;}
+.introduce_text_zone h1{font-size:4.75rem;}
+.introduce_text_zone_text{font-size:1.8rem;}
+.introduce_button_innor{font-size:2.3em;width:80vw;height:6rem;line-height:6rem;background-color:white;margin-top:2rem;}
+.introduce_img_in{width:90%;}
+.Photfolio_title{font-size:4.75rem;}
+.sq_item{position:relative;width:100%;padding-top:40%;}
+.sq_item_minusmargin{margin-top:0;}
+.sq_item_blank{display:none;}
+.footer_logo img{width:8em;}
+.footer_contents{font-size:1.8em;}
 }
-
-.Menu_po{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-}
-
-
-.anim1{
-	animation: layer1Anim 10s infinite;
-}
-
-.anim2{
-	animation: layer2Anim 10s infinite;
-}
-
-.anim3{
-	animation: layer3Anim 10s infinite;
-}
-
-@keyframes layer1Anim {
-    25%{opacity:1;}
-    35%{opacity:0;}
-    80%{opacity:0;}
-    90%{opacity:1;}
-}
-
-@keyframes layer2Anim {
-	0%{opacity:0;}
-    25%{opacity:0;}
-    35%{opacity:1;}
-    55%{opacity:1;}
-    65%{opacity:0;}
-    100%{opacity:0;}
-}
-
-@keyframes layer3Anim {
-	0%{opacity:0;}
-    55%{opacity:0;}
-    65%{opacity:1;}
-    90%{opacity:1;}
-    100%{opacity:0;}
-}
-
-.inMenu{
-	position: relative;
-
-	height: 100vh;
-	margin: auto;
-}
-
-.main_1_innor{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-
-	transform: translate(-50%, -50%);
-}
-
-.main_1_innor img{
-	display: block;
-	margin: auto;
-}
-
-.logo_text{
-	position: relative;
-	font-color: #484848;
-	margin-top: 20px;
-	font-size: 1rem;
-	line-height: 1.8rem;
-	text-align: center;
-}
-
-.main_2_innor{
-	position: relative;
-	margin: auto;
-	width: 502px;
-	height: 100vh;
-}
-
-.bg{
-	background-image: url(image/Myself.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-
-	position: absolute;
-
-	width: 100%;
-	padding-top: 129%;
-	
-	left: 50%;
-	top: 50%;
-
-	transform: translate(-50%, -50%);
-
-	margin: auto;
-}
-
-.intro{
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-image: url(image/pg3.png);
-
-	position: absolute;
-
-	width: 60%;
-	height: 60%;
-
-	left: 50%;
-	top: 50%;
-
-	transform: translate(-50%, -50%);
-}
-
-.profill_2{
-	position: absolute;
-	text-align: center;
-	background-color: rgba(230,230,230,0.7);
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
-.profill_2_innor{
-	position: absolute;
-
-	width: 100%;
-	left: 50%;
-	top: 50%;
-
-	transform: translate(-50%, -50%);
-}
-
-.profill_2 h1{
-	font-family: '나눔고딕', sans-serif;
-	padding-bottom: 3.3rem;
-	font-size: 2.2rem;
-	color: white;
-}
-
-.profill_2 p{
-	margin-top: 2.6rem;
-	font-size: 1.2rem;
-	color: white;
-}
-
-.introduce{
-	position: relative;
-	background-color: #d8d7d4;
-	text-align: center;
-
-	background-image: url(image/intro.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-
-	.introduce_text_zone{
-		position: relative;
-		max-width: 800px;
-
-		margin: auto;
-		padding-top: 5rem;
-		padding-right: 2rem;
-		padding-left: 2rem;
-	}
-
-	.introduce_text_zone h1{
-		text-align: center;
-		font-family: '나눔고딕', sans-serif;
-		font-size: 3.75rem;
-		color: white;
-		margin-bottom: 3rem;
-	}
-
-	.introduce_text_zone_text{
-		position: relative;
-		text-align: left;
-		font-family: '나눔고딕', sans-serif;
-		margin-top: 2.5rem;
-		font-size: 1.2rem;
-		line-height: 2.6em;
-		color: white;
-	}
-
-	.introduce_button{
-		margin-top: 3rem;
-		padding-bottom: 5rem;
-	}
-
-	.introduce_button_innor{
-		text-decoration: none;
-		color: #d8d7d4;
-		margin: auto;
-
-		display: inline-block;
-		
-		margin-right: 1.25rem;
-	}
-
-	.introduce_button_innor_a{
-		font-size: 2rem;
-		text-align: center;
-
-		padding: 1.5rem 3rem;
-		background-color: white;
-
-		z-index: 999999;
-	}
-
-	.introduce_img{
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		z-index: 999;
-	}
-
-	.introduce_img_bg{
-		background-color: rgba(0,0,0,.6);
-		height: 100%;
-		width: 100%;
-		position: fixed;
-		top: 0;
-		display:none;
-	}
-
-	.introduce_img_in{
-		position: fixed;
-		
-		width: 600px;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-
-		display:none;
-	}
-
-	.introduce_img_in_img{
-		position: absolute;
-
-		border: 20px solid #d8d7d4;
-		border-radius: 6px;
-
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-	}
-
-.Photfolio{
-	position: relative;
-	text-align: center;
-	padding-left: 1.3rem;
-	padding-right: 1.3rem;
-}
-
-.Photfolio_title{
-	position: relative;
-	font-family: '나눔고딕Bold', sans-serif;
-	margin-top: 2.5rem;
-	margin-bottom: 2.5rem;
-
-	font-size: 3.75rem;
-	color: #bababc;
-}
-
-.Photfolio_in{
-	position: relative;
-	max-width: 1200px;
-	margin: auto;
-}
-
-.clearfix::after{
-	content: '';
-	display: block;
-	clear: both;
-}
-
-.sq{
-	overflow: hidden;
-}
-
-.sq_item{
-	position: relative;
-	float: left;
-	width: 25%;
-	padding-top: 25%;
-}
-
-.sq_blank{
-	position: relative;
-	float: left;
-	width: 10%;
-	padding-top: 10%;
-}
-
-.sq_item_anchor{
-	position: absolute;
-	overflow: hidden;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: 0.1rem;
-}
-
-.sq_item_wide{
-	width: 50%;
-	padding-top: 30%;
-}
-
-.sq_item_blank{
-	width: 30%;
-	padding-top: 30%;
-}
-
-.sq_item_long{
-	width: 30%;
-	padding-top: 40%;
-}
-
-.sq_item_float_right{
-	float: right;
-}
-
-.sq_item_float_left{
-	float: left;
-}
-
-.sq_item_minusmargin{
-	margin-top: -10%;
-}
-
-.sq_wide_margin{
-	margin-top: 10%;
-}
-
-.goKyoto{
-	background-image: url(image/GoKyoto.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 10;
-
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.goKyoto:hover{
-	z-index: 0;
-}
-
-.iPet{
-	background-image: url(image/iPet.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 10;
-
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.iPet:hover{
-	z-index: 0;
-}
-
-
-.BluePrint{
-	background-image: url(image/BluePrint.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 10;
-
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.BluePrint:hover{
-	z-index: 0;
-}
-
-.CJONE{
-	background-image: url(image/CJone.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 10;
-
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.CJONE:hover{
-	z-index: 0;
-}
-
-.Blank{
-	background-image: url(image/blank.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	z-index: 10;
-
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	left: 0;
-}
-
-.Blank:hover{
-	z-index: 0;
-}
-
-
-.sq_innor{
-	opacity: 0;
-	z-index: 30;
-	background-color: rgba(255,255,255,0.9);
-
-	position: relative;
-
-	width: 100%;
-	height: 100%;
-
-	transition: all 0.3s;	
-}
-
-.sq_innor_title{
-	position: absolute;
-
-	top: 50%;
-	left: 50%;
-
-	transform: translate(-50%, -50%);
-}
-
-.sq_innor_title h1{
-	color: #bababc;
-	padding-left: 1rem;
-	font-size: 4rem;
-}
-
-.sq_innor_title p{
-	color: #bababc;
-	padding-top: 1rem;
-	padding-left: 1.2rem;
-	font-size: 1.5rem;
-	line-height: 1.5em;
-}
-
-.sq_innor:hover{
-	opacity: 1;
-}
-
-.Photfolio_footer{
-	padding-bottom: 100px;
-}
-
-.footer{
-	width: 100%;
-	background-color: #d8d7d4;
-	text-align: center;
-
-	color: white;
-}
-
-.footer_logo{
-	position: relative;
-	margin: 0 auto;
-}
-
-.footer_logo img{
-	padding-top: 30px;
-	padding-bottom: 10px;
-
-	width: 76px;
-}
-
-.footer_contents{
-	padding-top: 20px;
-	font-size: 1rem;
-	line-height: 2.6em;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-.footer_p_point{
-	font-size: 0.8em;
-	margin-top: 2em;
-	line-height: 3em;
-}
-
-.footer_end{
-	padding-bottom: 80px;
-}
-
-@media (max-width: 1181px){
-	.main_2_innor{
-		width: 70%;
-	}
-
-	.intro{
-		width: 90%;
-		height: 90%;
-	}
-
-	.bg{
-		width: 100%;
-		padding-top: 129%;
-	}
-
-	.profill_2 h1{
-		font-size: 4rem;
-	}
-
-	.profill_2 p{
-		font-size: 2rem;
-	}
-
-	.introduce{
-		background-image: none;
-	}
-
-	.introduce_text_zone{
-		max-width: 1000px;
-		padding-top: 4rem;
-		padding-right: 3rem;
-		padding-left: 3rem;
-	}
-
-	.introduce_text_zone h1{
-		font-size: 4.75rem;
-	}
-
-	.introduce_text_zone_text{
-		font-size: 1.8rem;
-	}
-
-	.introduce_button_innor{
-		font-size: 2.3em;
-
-		width: 80vw;
-		height: 6rem;
-		line-height: 6rem;
-		background-color: white;
-
-		margin-top: 2rem;
-	}
-
-	.introduce_img_in{
-		width: 90%;
-	}
-
-	.Photfolio_title{
-		font-size: 4.75rem;
-	}
-
-	.sq_item{
-		position: relative;
-		width: 100%;
-		padding-top: 40%;
-	}
-
-	.sq_item_minusmargin{
-		margin-top: 0;
-	}
-
-	.sq_item_blank{
-		display: none;
-	}
-
-	.footer_logo img{
-		width: 8em;
-	}
-
-	.footer_contents{
-		font-size: 1.8em;
-	}
-}
-
