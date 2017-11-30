@@ -7,12 +7,9 @@
 		<link rel="stylesheet" href="Photfolio_Home/Css.css"/>
 		<script type="text/javascript" src="Modals/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript">
-			$(document).ready(function(){
- 				$(".call_modal_resume").click(function(){
-					$(".modal").fadeIn();
-					$(".modal_resume").show();
-	 		 	});
-			});
+			$(window).load(function() {    
+    			 $('#loading').hide();  
+   			 });
 			$(document).ready(function(){
  				$(".call_modal_introduce").click(function(){
 					$(".modal").fadeIn();
@@ -29,7 +26,11 @@
 		</script>
 	</head>
 	<body>
-		<div class ="main">
+		<div id="loading" class="loader_bg">
+			<div class="loader"></div>
+		</div>
+		<div class="container">
+			<div class ="main">
 			<div class="Menu_po">
 				<div class = "inMenu anim1">
 					<div class = "main_1_innor">
@@ -150,6 +151,7 @@
 				<p class="footer_p_point">"이 사이트는 템플릿 없이 제작된 반응형 웹사이트입니다.<br>일부 기기에서는 모바일 호완이 잘 이루어 지지 않을 수 있습니다."</p>
 			</div>
 			<div class="footer_end"></div>
+		</div>
 		</div>
 	</body>
 </html>
