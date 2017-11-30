@@ -1,5 +1,6 @@
 html, body{
 	font-family: '나눔고딕', sans-serif;
+	-webkit-text-size-adjust: none;
 }
 
 .backgroung_wf{
@@ -518,7 +519,6 @@ html, body{
 @media (max-width: 1500px){
 	.intro_text{
 		text-align: center;
-		font-size: 0.6em;
 	}
 
 	.contents_device_Bace_1{
@@ -540,7 +540,6 @@ html, body{
 		margin-bottom: 3rem;
 
 		padding-top: 50px;
-		font-size: 0.6em;
 	}
 
 	.contents_device_Bace_2{
@@ -561,7 +560,6 @@ html, body{
 		margin-bottom: 3rem;
 
 		padding-top: 50px;
-		font-size: 0.6em;
 	}
 
 	.contents_text_3{
@@ -579,14 +577,9 @@ html, body{
 		margin-bottom: 3rem;
 
 		padding-top: 50px;
-		font-size: 0.6em;
 	}
 
 	.UXGuide img{
 		width: 90%;
-	}
-
-	.footer p{
-	font-size: 0.5rem;
 	}
 }

@@ -1,6 +1,7 @@
 
 html, body {
 	font-family: '나눔고딕', sans-serif;
+	-webkit-text-size-adjust: none;
 /*
   	background-image: url(image/tumblr_nl100tBSjw1txe8seo1_500.gif);
 	background-repeat: no-repeat;
@@ -569,8 +570,7 @@ html, body {
 	}
 
 	.introduce_text_zone_text{
-		font-size: 0.8em;
-		line-height: 6em;
+		font-size: 1.8rem;
 	}
 
 	.introduce_button_innor{
@@ -611,8 +611,7 @@ html, body {
 	}
 
 	.footer_contents{
-		font-size: 0.7em;
-		line-height: 2.6em;
+		font-size: 1.8em;
 	}
 }
 
