@@ -476,7 +476,7 @@ html{
 	}
 
 	.main_pg_wrap{
-		margin-bottom: 100px;
+		padding-bottom: 300px;
 	}
 
 	.main_pg{
@@ -503,12 +503,11 @@ html{
 	}
 
 	.main_title_processbook_title{
+		position: relative;
 		font-size: 3em;
 		color: #787979;
 
 		margin-top: 1.3em;
-
-		display: inline-block;
 
 		text-align: center;
 		padding: 1em 2em;
